@@ -1,0 +1,45 @@
+/* ========== Announcements ========== */
+
+
+
+.announcements {
+    width: 100%;
+}
+
+#refreshAnnouncements {
+  color: red;
+    cursor: pointer;
+    float: right;
+    font-size: 0.5em;
+    line-height: 2em;
+}
+
+.announcements-container {
+    overflow-y: auto;
+}
+
+.announcement {
+    border-bottom: 2px solid rgba(204,204,204,0.5);
+    padding: 0 0 0 0;
+    margin: 0 0 15px 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+.announcement h2 {
+    margin: 0 0 5px 0;
+    font-size: 12pt;
+}
+
+.announcement h3 {
+    margin: 0 0 8px 0;
+}
+
+.announcement p {
+    color: black;
+}

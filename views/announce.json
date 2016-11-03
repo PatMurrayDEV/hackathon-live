@@ -1,0 +1,19 @@
+{
+  "date_updated": 1478147305,
+  "results": [
+    {
+      "id": "18",
+      "title": "Yoga",
+      "info": "Already stressed about your hack? Come join us for some relaxing yoga led by Mike Dannheim in the Tigers Room!",
+      "broadcast_at": 1475956500,
+      "approved": true
+    },
+    {
+      "id": "17",
+      "title": "Microsoft Bot Framework",
+      "info": "Bring on the Bots! Come to the Red Wings Room and see all the cool things you can do with the Microsoft Bot Framework.",
+      "broadcast_at": 1475952540,
+      "approved": true
+    }
+  ]
+}

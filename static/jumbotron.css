@@ -1,0 +1,9 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 2rem;
+}
+
+.container h2 {
+  border-bottom: 1px solid rgba(3, 3, 3, 1);
+  padding-bottom: 10px;
+}

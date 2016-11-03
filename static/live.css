@@ -1,0 +1,80 @@
+.jumbotron {
+  padding: 5rem 2rem 4em 2em;
+  min-height: 300px;
+}
+
+
+
+.hideCountdown{
+    display: none;
+}
+
+#countdown-container {
+  justify-content: center;
+}
+
+.countdown {
+  text-align: center;
+}
+
+.countdown div {
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+
+@media only screen and (min-width: 990px) {
+  .countdown[data-cdNum='2'].devOpen {
+    float: left;
+    display:inline-block;
+  }
+  .countdown[data-cdNum='3'].devOpen {
+    float: right;
+    display:inline-block;
+  }
+  .countdown.devClosed {
+    display: block;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    .jumbotron {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .countdown div {
+        font-size: 3.5rem;
+        padding-top: 0;
+        margin-bottom: 1em;
+        line-height: 0;
+    }
+    .countdown h3 {
+      padding-bottom: 1em;
+      font-size: 20px;
+    }
+    .countdown h5 {
+      padding-bottom: 1em;
+      font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .countdown {
+      margin: 0;
+      padding: 0;
+    }
+    .countdown div {
+        font-size: 2.5rem;
+        padding-top: 0;
+        margin-bottom: 1em;
+        line-height: 0;
+    }
+    .countdown h3 {
+      padding-bottom: 1em;
+      font-size: 20px;
+    }
+    .countdown h5 {
+      padding-bottom: 1em;
+      font-size: 14px;
+    }
+}
