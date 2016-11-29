@@ -16,4 +16,6 @@ function CheckSchedule() {
   });
 }
 
+CheckSchedule();
+
 var interval = self.setInterval(function(){CheckSchedule()},10000);
