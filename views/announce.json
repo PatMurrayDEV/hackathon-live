@@ -2,18 +2,25 @@
   "date_updated": 1478147305,
   "results": [
     {
-      "id": "18",
+      "id": "2",
       "title": "Yoga",
-      "info": "Already stressed about your hack? Come join us for some relaxing yoga led by Mike Dannheim in the Tigers Room!",
+      "info": "Already stressed about your hack? Come join us for some relaxing yoga led by Your Mum in the Main Room!",
       "broadcast_at": 1475956500,
       "approved": true
     },
     {
-      "id": "17",
+      "id": "3",
       "title": "Microsoft Bot Framework",
       "info": "Bring on the Bots! Come to the Red Wings Room and see all the cool things you can do with the Microsoft Bot Framework.",
       "broadcast_at": 1475952540,
       "approved": true
+    },
+    {
+      "id": "5",
+      "title": "Microsoft Bot Framework",
+      "info": "Bring on the Bots! Come to the Red Wings Room and see all the cool things you can do with the Microsoft Bot Framework.",
+      "broadcast_at": 1475952544,
+      "approved": false
     }
   ]
 }
