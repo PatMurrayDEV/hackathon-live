@@ -8,7 +8,7 @@
 
 
 /*THESE ARE FOR TESTING -- COMMENT FOR PROD*/
-var hackingStarts = new Date("2016-12-03T14:00:00.000-0500");
+var hackingStarts = new Date("Dec 03 2016 09:00:00 GMT-0500");
 var hsCountdown = $(".countdown[data-cdNum='1']");
 var devpostEnds = new Date("2016-12-04T01:00:00.000Z");
 var deCountdown = $(".countdown[data-cdNum='2']");
