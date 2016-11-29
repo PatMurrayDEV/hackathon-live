@@ -1,18 +1,18 @@
 /*THESE ARE REAL VALUES DON'T EDIT*/
-// var hackingStarts = new Date("2016-12-03T13:00:00.000Z");
+// var hackingStarts = new Date("Dec 03 2016 09:00:00 GMT-0500");
 // var hsCountdown = $(".countdown[data-cdNum='1']");
-// var devpostEnds = new Date("2016-12-03T23:30:00.000Z");
+// var devpostEnds = new Date("Dec 03 2016 20:00:00 GMT-0500");
 // var deCountdown = $(".countdown[data-cdNum='2']");
-// var hackingEnds = new Date("2016-12-04T01:00:00.000Z");
+// var hackingEnds = new Date("Dec 03 2016 21:00:00 GMT-0500");
 // var heCountdown = $(".countdown[data-cdNum='3']");
 
 
 /*THESE ARE FOR TESTING -- COMMENT FOR PROD*/
-var hackingStarts = new Date("Dec 03 2016 09:00:00 GMT-0500");
+var hackingStarts = new Date("Nov 028 2016 21:25:00 GMT-0500");
 var hsCountdown = $(".countdown[data-cdNum='1']");
-var devpostEnds = new Date("2016-12-04T01:00:00.000Z");
+var devpostEnds = new Date("Nov 03 2016 21:30:00 GMT-0500");
 var deCountdown = $(".countdown[data-cdNum='2']");
-var hackingEnds = new Date("2016-12-04T02:00:00.000Z");
+var hackingEnds = new Date("Nov 03 2016 21:35:00 GMT-0500");
 var heCountdown = $(".countdown[data-cdNum='3']");
 
 hsCountdown.countdown(hackingStarts.getTime(), {elapse: false, defer: true})
