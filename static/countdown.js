@@ -8,7 +8,7 @@
 
 
 /*THESE ARE FOR TESTING -- COMMENT FOR PROD*/
-var hackingStarts = new Date("2016-12-03T14:00:00.000Z");
+var hackingStarts = new Date("2016-12-03T14:00:00.000EST");
 var hsCountdown = $(".countdown[data-cdNum='1']");
 var devpostEnds = new Date("2016-12-04T01:00:00.000Z");
 var deCountdown = $(".countdown[data-cdNum='2']");
@@ -17,6 +17,9 @@ var heCountdown = $(".countdown[data-cdNum='3']");
 
 hsCountdown.countdown(hackingStarts.getTime(), {elapse: false, defer: true})
     .on('update.countdown', function(event){
+
+
+
         $(this).html(event.strftime(
             '<h3>Hacking Begins In</h3>' +
             '<div>%I:%M:%S</div>'
