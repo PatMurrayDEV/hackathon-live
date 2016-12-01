@@ -13,8 +13,8 @@ function getAlerts(){
         success: function(response){
             var now = new Date();
             response.forEach(function(a){
-
-                if(a.approved && a.expires.getTime() >= now.getTime()) {
+                var expires = new Date(a.expires);
+                if(a.approved && expires.getTime() >= now.getTime()) {
                   console.log(a);
                     alerts.push({
                         title: a.title,
