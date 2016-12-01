@@ -3,9 +3,12 @@ var aContainer = $(".alerts-container");
 
 $(document).ready(function(){
     getAlerts();
+    var interval = self.setInterval(function(){getAlerts()},15000);
 });
 
 function getAlerts(){
+  $(".alert").remove();
+  alerts = [];
     $.ajax({
         url : "./alerts.json",
         type: "GET",
@@ -43,10 +46,4 @@ function displayAlerts(){
             "</div>"
         );
     });
-}
-
-function findAlerts() {
-  $(".alert").remove();
-  alerts = [];
-  getAlerts();
 }
