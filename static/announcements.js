@@ -15,7 +15,6 @@ function getAlerts(){
             response.forEach(function(a){
                 var expires = new Date(a.expires);
                 if(a.approved && expires.getTime() >= now.getTime()) {
-                  console.log(a);
                     alerts.push({
                         title: a.title,
                         info: a.info
@@ -34,6 +33,7 @@ function getAlerts(){
 
 function displayAlerts(){
     alerts.forEach(function(a, idx){
+      console.log(a);
         aContainer.append(
             "<div class='jumbotron alert'>" +
                 "<div class='alert-container'>" +
