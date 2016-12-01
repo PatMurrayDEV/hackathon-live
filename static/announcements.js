@@ -14,7 +14,7 @@ function getAlerts(){
             var now = new Date();
             response.forEach(function(a){
 
-                if(a.approved && +a.expires >= +now) {
+                if(a.approved && a.expires.getTime() >= now.getTime()) {
                   console.log(a);
                     alerts.push({
                         title: a.title,
