@@ -24,17 +24,12 @@ function getAlerts(){
             });
         },
         complete: function(response){
-            alerts.sort(alertSorter);
             displayAlerts();
         },
         error: function(xhr, errmsg, err){
             console.error("Encountered Error: " + errmsg + "\n" + xhr.status + ": " + xhr.responseText);
         }
     });
-}
-
-function alertSorter(a, b){
-    return b.time - a.time;
 }
 
 function displayAlerts(){
