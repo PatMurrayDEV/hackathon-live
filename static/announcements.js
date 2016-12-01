@@ -6,7 +6,6 @@ $(document).ready(function(){
 });
 
 function getAlerts(){
-    alerts = [];
     $.ajax({
         url : "./alerts.json",
         type: "GET",
@@ -39,7 +38,6 @@ function alertSorter(a, b){
 }
 
 function displayAlerts(){
-    $(".alert").remove();
     alerts.forEach(function(a, idx){
         aContainer.append(
             "<div class='jumbotron alert'>" +
@@ -50,4 +48,10 @@ function displayAlerts(){
             "</div>"
         );
     });
+}
+
+function findAlerts() {
+  $(".alert").remove();
+  alerts = [];
+  getAlerts();
 }

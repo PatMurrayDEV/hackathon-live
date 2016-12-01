@@ -15,7 +15,7 @@ function CheckSchedule() {
 
   });
 
-  getAlerts();
+  findAlerts();
 }
 
 CheckSchedule();
