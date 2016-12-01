@@ -1,8 +1,8 @@
 [
   {
-    "title": "Yoga",
-    "info": "Already stressed about your hack? Come join us for some relaxing yoga led by Mike Dannheim in the Tigers Room!",
-    "expires": "Dec 03 2016 08:30:00 GMT-0500",
+    "title": "Announcement",
+    "info": "This is an announcement it will expire on Dec 1 at midday",
+    "expires": "Dec 01 2016 12:00:00 GMT-0500",
     "approved": true
   }
 ]
