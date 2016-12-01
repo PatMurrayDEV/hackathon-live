@@ -12,7 +12,7 @@ function getAlerts(){
         type: "GET",
         dataType: "json",
         success: function(response){
-            var now = new Date().getTime() / 1000;
+            var now = new Date();
             response.forEach(function(a){
                 if(a.approved && a.expires >= now) {
                     alerts.push({
