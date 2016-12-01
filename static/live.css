@@ -4,7 +4,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #425195;
+  color: white;
+  border-radius: 0;
 }
+
+
+.alert {
+  margin: 0;
+  background-color: rgb(128, 220, 133);
+  min-height: 100px;
+  padding: 1em;
+}
+
+.alert .container {
+  text-align: center;
+}
+
+.alert .container h1 {
+  font-size: 1.5rem
+}
+
+.alert .container p {
+  font-size: 1rem;
+  margin-bottom: 0
+}
+
 
 .nextUpcomingContainer {
   display: -webkit-flex;

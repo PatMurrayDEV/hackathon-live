@@ -14,8 +14,10 @@ function CheckSchedule() {
     }
 
   });
+
+  getAlerts();
 }
 
 CheckSchedule();
 
-var interval = self.setInterval(function(){CheckSchedule()},10000);
+var interval = self.setInterval(function(){CheckSchedule()},3000);
