@@ -1,7 +1,7 @@
 [
   {
     "title": "Announcement",
-    "info": "This is an announcement it will expire on Dec 1 at midday",
+    "info": "This is an announcement it will expire on Dec 1 at Midday",
     "expires": "Dec 01 2016 12:00:00 GMT-0500",
     "approved": true
   }
