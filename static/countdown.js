@@ -8,11 +8,11 @@ var heCountdown = $(".countdown[data-cdNum='3']");
 
 
 /*THESE ARE FOR TESTING -- COMMENT FOR PROD*/
-// var hackingStarts = new Date("Nov 28 2016 21:25:00 GMT-0500");
+// var hackingStarts = new Date("Nov 30 2016 21:25:00 GMT-0500");
 // var hsCountdown = $(".countdown[data-cdNum='1']");
-// var devpostEnds = new Date("Nov 28 2016 21:30:00 GMT-0500");
+// var devpostEnds = new Date("Nov 30 2016 21:30:00 GMT-0500");
 // var deCountdown = $(".countdown[data-cdNum='2']");
-// var hackingEnds = new Date("Nov 28 2016 21:35:00 GMT-0500");
+// var hackingEnds = new Date("Nov 30 2016 21:35:00 GMT-0500");
 // var heCountdown = $(".countdown[data-cdNum='3']");
 
 hsCountdown.countdown(hackingStarts.getTime(), {elapse: false, defer: true})
