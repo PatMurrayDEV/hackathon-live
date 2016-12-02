@@ -36,7 +36,6 @@ function getAlerts(){
 
 function displayAlerts(){
     alerts.forEach(function(a, idx){
-      console.log(a);
         aContainer.append(
             "<div class='jumbotron alert'>" +
                 "<div class='alert-container'>" +
